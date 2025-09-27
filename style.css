@@ -1,10 +1,16 @@
-
-.body{
-margin :0;
-background :black;
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #222, #4e9a06 80%);
 }
-.cancas{
+canvas {
     display: block;
-    margin: o auto;
-    background:white;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 40px #1976d2 inset;
+    border: 4px solid #1976d2;
+    transition: box-shadow 0.3s;
+}
+canvas:hover {
+    box-shadow: 0 16px 48px rgba(0,0,0,0.6), 0 0 60px #ffeb3b inset;
 }
